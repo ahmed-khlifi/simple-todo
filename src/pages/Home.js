@@ -3,13 +3,6 @@ import TodoItem from '../components/TodoItem'
 
 export default function Home() {
 
-    const data = {
-        "userId": 9999,
-        "id": 999,
-        "title": "test ",
-        "completed": true
-    }
-
     const [todos, setTodos] = useState([])
     const [todo, setTodo] = useState({
         completed: null,
