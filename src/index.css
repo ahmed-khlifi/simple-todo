@@ -6,8 +6,32 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.container{
+  width: 550px;
+  margin: auto;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.todo-item {
+  background-color: azure;
+  padding: 8px;
+  border-bottom: 1px solid rgb(226, 220, 220);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.todo-item p{
+  font-size: larger;
+  font-weight: 600;
+}
+.btn {
+  border: none;
+  padding: 8px 15px;
+  border-radius: 25px;
+  background: rgb(68, 68, 238);
+  color: #fff;
+  cursor: pointer;
+}
+.addtodo {
+  display: flex;
+  flex-direction: column;
 }
