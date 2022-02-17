@@ -15,7 +15,7 @@ export default function Home() {
 
         fetch('https://jsonplaceholder.typicode.com/todos')
         .then(data => data.json())
-        .then(todo => setTodos([...todo, data]))
+        .then(todo => setTodos(todo))
 
     }, [])
 
